@@ -19,9 +19,9 @@ const posts: PostType[] = [
       {
         type: "paragraph",
         content:
-          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
+          "Esse é um post criado a partir de um array estático mesmo, pra aprender conceitos de iteração com React! 🚀",
       },
-      { type: "link", content: "jane.design/doctorcare" },
+      { type: "link", content: "github.com/edbonamigo" },
     ],
     publishedAt: new Date("2023-08-02 08:00:30"),
   },
@@ -37,9 +37,9 @@ const posts: PostType[] = [
       {
         type: "paragraph",
         content:
-          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consequatur necessitatibus exercitationem laborum quibusdam magnam, quod dignissimos.",
       },
-      { type: "link", content: "jane.design/doctorcare" },
+      { type: "link", content: "github.com/0ur0b0r0s" },
     ],
     publishedAt: new Date("2023-08-04 08:00:30"),
   },
