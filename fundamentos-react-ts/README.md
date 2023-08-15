@@ -1,27 +1,23 @@
-# React + TypeScript + Vite
+# Fundamentals React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this module, we built a React application using Vite and learned about the most important concepts of React. These include componentization, properties, state, immutability, and hooks. We also applied TypeScript to the project to add static typing to the application.
 
-Currently, two official plugins are available:
+[Live project](https://fundamentos-react-typescript.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Installation
 
-## Expanding the ESLint configuration
+You will need `node` and `npm` installed globally on your machine.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Clone down this repository, via terminal go to the project folder and run:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+$ npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+$ npm run dev
+```
+
+# App Screenshot
+
+[![App Screenshot](https://raw.githubusercontent.com/edbonamigo/bootcamp-rocketseat/master/fundamentos-react-ts/src/assets/screenshot.jpg)](https://fundamentos-react-typescript.vercel.app/)

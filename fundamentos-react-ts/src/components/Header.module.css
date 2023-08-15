@@ -5,6 +5,12 @@
   padding: 1.25rem 0;
 }
 
+.header strong {
+  font-size: 1.6rem;
+  align-self: center;
+  margin-left: 1rem;
+}
+
 .header img {
   height: 2rem;
 }
