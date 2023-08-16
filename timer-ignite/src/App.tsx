@@ -1,6 +1,6 @@
-import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "./styles/themes/defalt";
-import { GlobalStyle } from "./styles/global";
+import { ThemeProvider } from 'styled-components'
+import { defaultTheme } from './styles/themes/defalt'
+import { GlobalStyle } from './styles/global'
 
 export function App() {
   return (
@@ -9,5 +9,5 @@ export function App() {
 
       <GlobalStyle />
     </ThemeProvider>
-  );
+  )
 }
