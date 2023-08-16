@@ -1,13 +1,17 @@
 import { ThemeProvider } from 'styled-components'
+import { BrowserRouter } from 'react-router-dom'
+import { Router } from './Router'
+
 import { defaultTheme } from './styles/themes/defalt'
 import { GlobalStyle } from './styles/global'
 
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <h1>Timer Ignite!</h1>
-
-      <GlobalStyle />
+      <BrowserRouter>
+        <Router />
+        <GlobalStyle />
+      </BrowserRouter>
     </ThemeProvider>
   )
 }
