@@ -1,27 +1,23 @@
-# React + TypeScript + Vite
+# Timer - SPA with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this module, we built a complete application with routing and various important concepts from the React ecosystem, such as ContextAPI, useReducer, immer, and much more.
 
-Currently, two official plugins are available:
+[Live project](https://timer-ignite.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Installation
 
-## Expanding the ESLint configuration
+You will need `node` and `npm` installed globally on your machine.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Clone down this repository, via terminal go to the project folder and run:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+$ npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+$ npm run dev
+```
+
+# App Screenshot
+
+[![App Screenshot](https://raw.githubusercontent.com/edbonamigo/bootcamp-rocketseat/blob/master/timer-ignite/src/assets/timer-ignite.png)](https://timer-ignite.vercel.app/)
