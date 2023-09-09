@@ -2,7 +2,7 @@
 
 In this module, we built a complete application with routing and various important concepts from the React ecosystem, such as ContextAPI, useReducer, immer, and much more.
 
-[Live project](https://timer-ignite.vercel.app/)
+[Live project](timer-bootcamp-ignite.vercel.app)
 
 # Installation
 
@@ -20,4 +20,4 @@ $ npm run dev
 
 # App Screenshot
 
-[![App Screenshot](https://raw.githubusercontent.com/edbonamigo/bootcamp-rocketseat/blob/master/timer-ignite/src/assets/timer-ignite.png)](https://timer-ignite.vercel.app/)
+[![App Screenshot](https://raw.githubusercontent.com/edbonamigo/bootcamp-rocketseat/master/timer-ignite/src/assets/timer-ignite.png)](timer-bootcamp-ignite.vercel.app)
